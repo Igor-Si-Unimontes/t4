@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>projetoweb</groupId>
+  <artifactId>projetoweb</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>projetoweb</name>
+  
+  <dependencies>
+          <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.33</version>
+                <scope>compile</scope>
+          </dependency>
+          <dependency>
+                <groupId>org.primefaces</groupId>
+                <artifactId>primefaces</artifactId>
+                <version>12.0.0</version>
+                <scope>compile</scope>
+          </dependency>
+          <dependency>
+                <groupId>org.glassfish</groupId>
+                <artifactId>javax.faces</artifactId>
+                <version>2.2.9</version>
+                <scope>compile</scope>
+          </dependency>
+     </dependencies>
+     <repositories>
+          <repository>
+                <id>prime-repo</id>
+                <name>PrimeFaces Maven Repository</name>
+                <url>http://repository.primefaces.org</url>
+                <layout>default</layout>
+          </repository>
+     </repositories>
+  
+</project>
